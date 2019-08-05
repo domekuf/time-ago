@@ -7,5 +7,10 @@
             "email": "dome.diiorio@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "DomeKuf": "src/"
+        }
+    }
 }
