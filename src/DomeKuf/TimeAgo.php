@@ -15,7 +15,7 @@ class TimeAgo
         $a = new DateTime();
         $a->setTimestamp($date);
         $now = new DateTime();
-        $this->$diff = $now->diff($a);
+        $this->diff = $now->diff($a);
     }
     public function toString()
     {
@@ -46,7 +46,7 @@ class TimeAgo
             ]
         ];
         foreach($map as $key=>$word) {
-            $time = $this->$diff->$key;
+            $time = $this->diff->$key;
             if ($time > 0) {
                 $w = $word[$time>1?'plural':'singular'];
                 return "Circa $time $w fa.";
