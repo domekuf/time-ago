@@ -1,0 +1,11 @@
+{
+    "name": "domekuf/time-ago",
+    "description": "A simple PHP utility to calculate how much time ago is a date, in human readable format.",
+    "authors": [
+        {
+            "name": "Domenico Di Iorio",
+            "email": "dome.diiorio@gmail.com"
+        }
+    ],
+    "require": {}
+}
